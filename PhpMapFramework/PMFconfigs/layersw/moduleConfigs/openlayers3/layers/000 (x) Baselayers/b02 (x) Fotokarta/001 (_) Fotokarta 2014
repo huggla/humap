@@ -1,7 +1,7 @@
 new ol.source.TileWMS
 ({
-	url: "http://kartor.kristianstad.se:8080/geoserver/kstad/wms?",
-	params: {LAYERS: "kstad:orto025", VERSION: "1.1.1"},
+	url: "https://kartor.kristianstad.se/geoserver/geodata/wms?",
+	params: {LAYERS: "orto2014", VERSION: "1.1.1"},
 	tileGrid:
 		new ol.tilegrid.TileGrid
 		({
