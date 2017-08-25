@@ -1,7 +1,7 @@
 new ol.source.TileWMS
 ({
-	url: "http://kartor.kristianstad.se/qgisexternt/kkarta/qgis_mapserv.fcgi?DPI=96&",
-	params: {LAYERS: "fastighetsindelning", VERSION: "1.1.1"},
+	url: "https://kartor.kristianstad.se/fastighetsindelning/?DPI=96&",
+	params: {LAYERS: "fastighetsindelning_kkarta", VERSION: "1.1.1"},
 	tileGrid:
 		new ol.tilegrid.TileGrid
 		({
