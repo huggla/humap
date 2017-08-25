@@ -1,6 +1,6 @@
 new ol.source.TileWMS
 ({
-	url: "http://193.17.67.229/cgi-bin/turistkarta/?DPI=96&MAP_RESOLUTION=96&FORMAT_OPTIONS=dpi:96&",
+	url: "https://kartor.kristianstad.se/turistkarta/?DPI=96",
 	params: {LAYERS: "turistkarta", VERSION: "1.1.1"},
 	tileGrid:
 		new ol.tilegrid.TileGrid
