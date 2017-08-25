@@ -1,0 +1,182 @@
+html {
+	width:100%;
+	height:100%;
+	font-size: 0.8em;
+	font-family: tahoma,arial,helvetica;
+	color:#023f88;
+	background-color:white;
+	line-height:normal;
+	display:inline;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+body {
+	width:inherit;
+	height:inherit;
+	font-size: inherit;
+	font-family:inherit;
+	color:inherit;
+	background-color:inherit;
+	line-height:inherit;
+	display:inherit;
+	margin:inherit;
+	padding:inherit;
+	overflow:inherit;
+}
+
+#layertree {
+	font-size: inherit;
+	font-family:inherit;
+	color:inherit;
+	background-color:inherit;
+	line-height:inherit;
+	display:inline;
+	margin:inherit;
+	position:absolute;
+	top:0px;
+	right:0px;
+	z-index:3000;
+white-space:nowrap;
+line-height:2em;
+
+max-height:100%;
+	overflow-y:auto;
+overflow-x:hidden;
+
+}
+#layertree-overflow {
+	display:block;
+line-height:0;
+width:auto;
+
+padding-top:0;
+	margin-bottom:2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	opacity:0.9;
+	border:1px;
+	border-left-style:solid;
+	border-bottom-style:solid;
+	vertical-align:middle;
+
+}
+input[type="checkbox"], input[type="radio"], p {
+vertical-align:inherit;
+margin:inherit;
+line-height:inherit;
+padding:inherit;
+
+}
+label {
+	max-width:inherit;
+}
+.checkb {
+	display:inline-block;
+        cursor: pointer;
+vertical-align:inherit;
+width:100%;
+	
+}
+.arrow1 {
+background-image: url("http://ikarta.kristianstad.se/wkartor/lib/dynatree-1.1.1/src/skin-vista/icons.gif");
+background-position: 0 -80px;
+background-repeat: no-repeat;
+display: inline-block;
+    height: 16px;
+
+    width: 16px;
+}
+.arrow2 {
+background-image: url("http://ikarta.kristianstad.se/wkartor/lib/dynatree-1.1.1/src/skin-vista/icons.gif");
+background-position: -32px -80px;
+background-repeat: no-repeat;
+display: inline-block;
+    height: 16px;
+
+    width: 16px;
+}
+.opacity {
+        cursor: pointer;
+	height:5px;
+	float:right;
+
+margin-top:-5px;
+
+
+}
+.visible {
+        cursor: pointer;
+vertical-align:top;
+
+}
+
+.group {
+width:100%;
+margin-bottom:5px;
+font-weight: bold;
+
+}
+
+#mapdiv {
+	height:inherit;
+	width:inherit;
+	font-size: inherit;
+	font-family:inherit;
+	color:inherit;
+	background-color:inherit;
+	line-height:inherit;
+	display:inherit;
+	margin:inherit;
+	z-index:2000;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#map {
+	height:inherit;
+	width:inherit;
+	font-size: inherit;
+	font-family:inherit;
+	color:inherit;
+	background-color:inherit;
+	line-height:inherit;
+	display:inherit;
+	margin:inherit;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 7px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; /* Add cool effects to your sliders! */
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 7px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+  border: 1px solid #000000;
+  height: 7px;
+  width: 16px;
+  border-radius: 3px;
+  background: #ffffff;
+  cursor: pointer;
+}

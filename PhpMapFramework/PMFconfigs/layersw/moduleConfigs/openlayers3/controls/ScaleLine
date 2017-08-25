@@ -1,0 +1,3 @@
+new ol.control.ScaleLine({
+    units: "metric"
+})

@@ -1,0 +1,26 @@
+<div style="display: none;">
+  <div id="popup" title="Openlayers 3 popup"></div>
+</div>
+<script>
+var pos = [190000,6210000];
+// Popup showing the position the user clicked
+var popup = new ol.Overlay({
+  element: document.getElementById('popup')
+});
+map.addOverlay(popup);
+map.on('click', function(evt) {
+  var element = popup.getElement();
+  var coordinate = evt.coordinate;
+  var xy = ol.coordinate.toStringXY(coordinate);
+  $(element).popover('destroy');
+  popup.setPosition(coordinate);
+  // the keys are quoted to prevent renaming in ADVANCED mode.
+  $(element).popover({
+    'placement': 'top',
+    'animation': false,
+    'html': true,
+    'content': '<p>The location you clicked was:</p><code class="xy-popup">' + xy + '</code>'
+  });
+  $(element).popover('show');
+});
+</script>

@@ -1,0 +1,11 @@
+#logo {
+	position:absolute;
+	top:0; left:0;
+	display:block;
+	margin:9px;
+	z-index:2000;
+}
+
+.ol-zoom {
+	top:100px;
+}
