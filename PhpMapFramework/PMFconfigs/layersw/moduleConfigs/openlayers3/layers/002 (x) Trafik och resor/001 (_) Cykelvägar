@@ -1,7 +1,7 @@
 new ol.source.TileWMS
 ({
-	url: "http://kartor.kristianstad.se/qgisexternt/kkarta/qgis_mapserv.fcgi?DPI=96&",
-	params: {LAYERS: "cykelstrak", VERSION: "1.1.1"},
+	url: "https://kartor.kristianstad.se/kkarta/?DPI=96&",
+	params: {LAYERS: "lv_cykelvagnat", VERSION: "1.1.1"},
 	tileGrid:
 		new ol.tilegrid.TileGrid
 		({
