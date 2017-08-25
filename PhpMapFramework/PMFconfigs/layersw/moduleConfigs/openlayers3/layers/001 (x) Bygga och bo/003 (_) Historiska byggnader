@@ -1,7 +1,7 @@
 new ol.source.TileWMS
 ({
-	url: "http://193.17.67.229/cgi-bin/kkarta/qgis_mapserv.fcgi?DPI=96&",
-	params: {LAYERS: "kulturmiljoinventering_", VERSION: "1.1.1"},
+	url: "https://kartor.kristianstad.se/kkarta/?DPI=96&",
+	params: {LAYERS: "byggnadsskyltar", VERSION: "1.1.1"},
 	tileGrid:
 		new ol.tilegrid.TileGrid
 		({
