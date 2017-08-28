@@ -14,3 +14,10 @@ Cons:
 * Still in its early stages.
 * Currently not actively developed.
 * The code may need minor changes to work on Windows servers (developed and tested on Ubuntu).
+
+### Demo maps
+* https://kartor.kristianstad.se/humap-master/?config=extern
+* https://kartor.kristianstad.se/humap-master/?config=layersw
+
+### Installation
+Copy all to your php-enabled web root.
